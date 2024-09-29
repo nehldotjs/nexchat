@@ -1,0 +1,12 @@
+.detailsContainer {
+    display: flex;
+    height: 100%;
+    width: 30%;
+
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 0px;
+    border-left: 1px solid rgba(255, 255, 255, 0.281);
+}

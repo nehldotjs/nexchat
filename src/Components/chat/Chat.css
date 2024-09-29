@@ -1,0 +1,121 @@
+.chatContainer {
+    /* background-color: pink; */
+    height: 100%;
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.384);
+
+    .chatMsgWrapper {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-direction: column;
+
+
+
+        .friendHeader {
+            width: 100%;
+            height: 10%;
+            padding: 10px;
+            justify-content: space-between;
+            align-items: center;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .messagesWrapper {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+
+
+            width: 100%;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        .messagesInputWrapper {
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 15%;
+            justify-content: space-evenly;
+            align-items: center;
+
+            gap: 5px;
+            padding: 10px 5px;
+
+
+            .mediaChatIconsWrapper {
+                height: auto;
+                width: auto;
+                display: flex;
+                gap: 10px;
+                padding: 0px 10px;
+
+                justify-content: center;
+                align-items: center;
+
+                .mediaIcon {
+                    background-color: transparent;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .sendIcon {
+                    height: 40px;
+                }
+
+            }
+
+            .messageTabs {
+                height: 100%;
+                width: auto;
+
+                justify-content: center;
+                align-items: center;
+                display: flex;
+
+                &:nth-child(2) {
+                    flex: 1;
+                    padding: unset;
+                    border-radius: 10px;
+                    border: 1px solid rgba(255, 255, 255, 0.5);
+
+
+                }
+
+                .messageInput {
+                    height: inherit;
+                    width: 100%;
+                    display: flex;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    padding: 10px;
+                    color: white;
+
+
+                }
+            }
+
+
+        }
+    }
+
+}

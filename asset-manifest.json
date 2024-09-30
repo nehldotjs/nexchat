@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nexchat/static/css/main.4d4e79aa.css",
+    "main.js": "/nexchat/static/js/main.dd82c796.js",
+    "static/media/userImage.jpg": "/nexchat/static/media/userImage.cc953c396acc0cefd25d.jpg",
+    "static/media/20230317_225254.jpg": "/nexchat/static/media/20230317_225254.76500e4d8cfc633cdbdd.jpg",
+    "index.html": "/nexchat/index.html",
+    "main.4d4e79aa.css.map": "/nexchat/static/css/main.4d4e79aa.css.map",
+    "main.dd82c796.js.map": "/nexchat/static/js/main.dd82c796.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d4e79aa.css",
+    "static/js/main.dd82c796.js"
+  ]
+}

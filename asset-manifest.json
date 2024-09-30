@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/nexchat/static/css/main.4d4e79aa.css",
-    "main.js": "/nexchat/static/js/main.dd82c796.js",
+    "main.css": "/nexchat/static/css/main.53b69021.css",
+    "main.js": "/nexchat/static/js/main.5f25ec9f.js",
+    "static/media/signup.jpg": "/nexchat/static/media/signup.a12deba8ac6568aa87e5.jpg",
+    "static/media/view-white-crumpled-paper.jpg": "/nexchat/static/media/view-white-crumpled-paper.f71df50c14680fbb84bb.jpg",
+    "static/media/login.jpg": "/nexchat/static/media/login.317a34c333b1a43842ee.jpg",
     "static/media/userImage.jpg": "/nexchat/static/media/userImage.cc953c396acc0cefd25d.jpg",
     "static/media/20230317_225254.jpg": "/nexchat/static/media/20230317_225254.76500e4d8cfc633cdbdd.jpg",
     "index.html": "/nexchat/index.html",
-    "main.4d4e79aa.css.map": "/nexchat/static/css/main.4d4e79aa.css.map",
-    "main.dd82c796.js.map": "/nexchat/static/js/main.dd82c796.js.map"
+    "main.53b69021.css.map": "/nexchat/static/css/main.53b69021.css.map",
+    "main.5f25ec9f.js.map": "/nexchat/static/js/main.5f25ec9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d4e79aa.css",
-    "static/js/main.dd82c796.js"
+    "static/css/main.53b69021.css",
+    "static/js/main.5f25ec9f.js"
   ]
 }

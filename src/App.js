@@ -6,7 +6,7 @@ import UserAuthenticationScreen from "./Components/Login/UserAuthenticationScree
 import userEvent from "@testing-library/user-event";
 
 function App() {
-  const [userAuth, setUserAuth] = useState(true);
+  const [userAuth, setUserAuth] = useState(false);
   return (
     <div className="App">
       {!userAuth ? (

@@ -42,6 +42,21 @@
                     display: flex;
                     object-fit: cover;
                 }
+
+                .userImageIcon {
+                    height: 70%;
+                    width: auto;
+                    display: flex;
+                    object-fit: contain;
+                    margin: auto;
+                }
+            }
+
+            h6 {
+                display: flex;
+                text-transform: capitalize;
+                letter-spacing: 2px;
+                font-weight: bold;
             }
         }
 
@@ -124,8 +139,6 @@
         }
     }
 
-
-
     .chatListContainer {
         border-radius: 5px;
         display: flex;
@@ -152,8 +165,8 @@
             padding: 10px;
             align-items: flex-start;
             justify-content: flex-start;
-
             border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+            cursor: pointer;
 
             &:nth-last-child(1) {
                 border-bottom: 0px solid rgba(255, 255, 255, 0.295);
@@ -239,11 +252,13 @@
                         flex: 1;
                         background-color: transparent;
                         border: 1px solid white;
-                        padding: 5px;
+                        color: white;
+                        padding: 5px 10px;
                         border-radius: 5px;
+                        outline: none;
 
                         &::placeholder {
-                            color: rgb(190, 190, 190);
+                            color: rgb(230, 230, 230);
                         }
                     }
 
@@ -337,10 +352,10 @@
                 transform: translateX(-100%);
 
             }
-
-
-
         }
+    }
 
+    .display {
+        display: none;
     }
 }

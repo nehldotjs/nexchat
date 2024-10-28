@@ -1,18 +1,20 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
- import { getFirestore } from "firebase/firestore";
+import { GoogleAuthProvider } from "firebase/auth/web-extension";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvIsVYR03Jnhd3HZQ4mImsw9W1fn3PQy0",
-  authDomain: "nexchat-b2fbd.firebaseapp.com",
-  projectId: "nexchat-b2fbd",
-  storageBucket: "nexchat-b2fbd.appspot.com",
-  messagingSenderId: "493852947339",
-  appId: "1:493852947339:web:639aaf7ebee58b410fb58e"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export const auth =  getAuth();
-export const db = getFirestore();
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const GOOGLE_PROVIDER = new GoogleAuthProvider();

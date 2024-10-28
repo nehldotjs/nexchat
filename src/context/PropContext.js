@@ -17,7 +17,7 @@ export const useData = () => {
 const PropProvider = ({ children }) => {
   const [info, setInfo] = useState(false);
   const [mobileScreenList, setMobileScreenList] = useState(false);
-  const windowWidth = window.screen.width <= 900;
+  const windowWidth = window.innerWidth <= 900;
   const contextValue = {
     info,
     setInfo,

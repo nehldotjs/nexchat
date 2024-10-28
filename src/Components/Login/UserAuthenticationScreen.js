@@ -20,7 +20,7 @@ import { toast } from "react-toastify";
 import Upload from "../../lib/Upload";
 
 function UserAuthenticationScreen() {
-  const { loading, setLoading } = useData();
+  const { loading, setLoading, windowWidth } = useData();
   const [animation, setAnimation] = useState(true);
 
   // Separate state for sign-up
@@ -155,10 +155,9 @@ function UserAuthenticationScreen() {
 
   return (
     <div className="authContainer">
-      {/* ____________________________________________BACKGROUND IMAGE______ */}
-
       <div className="authWrapper">
         <div
+          style={{ display: !windowWidth ? "flex" : "none" }}
           className={
             animation
               ? "authImageContainer plusAnimation"
@@ -175,12 +174,14 @@ function UserAuthenticationScreen() {
             <img src={signUpImg} alt="Sign Up Illustration" />
           </div>
         </div>
-
         {/* _____________________SIGN UP______ */}
 
         <div
+          style={{ width: windowWidth ? "100%" : "" }}
           className={
-            animation ? "authInputWrapper minusAnimation" : "authInputWrapper"
+            !windowWidth && animation
+              ? "authInputWrapper minusAnimation"
+              : "authInputWrapper"
           }>
           <div
             className={

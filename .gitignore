@@ -1,8 +1,0 @@
-# Ignore build artifacts
-build/
-
-# Ignore node_modules directory
-node_modules/
-
-# Ignore log files
-*.log

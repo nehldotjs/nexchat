@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nexchat/static/css/main.3a62caef.css",
-    "main.js": "/nexchat/static/js/main.265ce56c.js",
+    "main.css": "/nexchat/static/css/main.e90b066b.css",
+    "main.js": "/nexchat/static/js/main.2a7bdeba.js",
     "static/media/signup.jpg": "/nexchat/static/media/signup.a12deba8ac6568aa87e5.jpg",
-    "static/media/view-white-crumpled-paper.jpg": "/nexchat/static/media/view-white-crumpled-paper.f71df50c14680fbb84bb.jpg",
     "static/media/login.jpg": "/nexchat/static/media/login.317a34c333b1a43842ee.jpg",
-    "static/media/userImage.jpg": "/nexchat/static/media/userImage.cc953c396acc0cefd25d.jpg",
+    "static/media/l2.gif": "/nexchat/static/media/l2.da6d6ea950c0183b86c3.gif",
+    "static/media/pngwing.com (2).png": "/nexchat/static/media/pngwing.com (2).b655c56e6a2611aaa61b.png",
     "index.html": "/nexchat/index.html",
-    "main.3a62caef.css.map": "/nexchat/static/css/main.3a62caef.css.map",
-    "main.265ce56c.js.map": "/nexchat/static/js/main.265ce56c.js.map"
+    "main.e90b066b.css.map": "/nexchat/static/css/main.e90b066b.css.map",
+    "main.2a7bdeba.js.map": "/nexchat/static/js/main.2a7bdeba.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a62caef.css",
-    "static/js/main.265ce56c.js"
+    "static/css/main.e90b066b.css",
+    "static/js/main.2a7bdeba.js"
   ]
 }

@@ -1,0 +1,36 @@
+.screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    margin: auto;
+    border-radius: 0px;
+    position: relative;
+    gap: 10px;
+
+    @media screen and (max-width: 900px) {
+        padding: 10px;
+    }
+
+    .userChatInfoContainer {
+        overflow: hidden;
+        flex: 3;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+        margin: auto;
+        transition: 350ms all ease-in-out;
+
+    }
+
+    .display {
+        display: none;
+    }
+
+
+}

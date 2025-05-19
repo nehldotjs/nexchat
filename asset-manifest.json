@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nexchat/static/css/main.2251fa19.css",
-    "main.js": "/nexchat/static/js/main.05a5842d.js",
+    "main.css": "/nexchat/static/css/main.a89e7d3d.css",
+    "main.js": "/nexchat/static/js/main.92310b2a.js",
     "static/media/signup.jpg": "/nexchat/static/media/signup.a12deba8ac6568aa87e5.jpg",
     "static/media/login.jpg": "/nexchat/static/media/login.317a34c333b1a43842ee.jpg",
     "static/media/l2.gif": "/nexchat/static/media/l2.da6d6ea950c0183b86c3.gif",
     "static/media/pngwing.com (2).png": "/nexchat/static/media/pngwing.com (2).b655c56e6a2611aaa61b.png",
     "index.html": "/nexchat/index.html",
-    "main.2251fa19.css.map": "/nexchat/static/css/main.2251fa19.css.map",
-    "main.05a5842d.js.map": "/nexchat/static/js/main.05a5842d.js.map"
+    "main.a89e7d3d.css.map": "/nexchat/static/css/main.a89e7d3d.css.map",
+    "main.92310b2a.js.map": "/nexchat/static/js/main.92310b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2251fa19.css",
-    "static/js/main.05a5842d.js"
+    "static/css/main.a89e7d3d.css",
+    "static/js/main.92310b2a.js"
   ]
 }
